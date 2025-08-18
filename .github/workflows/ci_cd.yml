@@ -37,6 +37,7 @@ jobs:
           path: |
             industrial-level-documentation.html
             industrial-level-documentation_files
+            images
 
       - name: Render and Publish
         # if: github.event_name == 'push' && github.ref == 'refs/heads/main'
