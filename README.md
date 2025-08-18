@@ -42,4 +42,4 @@ Key topics covered include:
  
 These approaches are applicable to organizations of all sizes, offering scalable solutions that not only streamline documentation processes but also enhance the overall user experience.
 
-**Slides : https://revathyvenugopal162.github.io/euroscipy-presentation/industrial-level-documenation.html#**
+**Slides : [Industrial-Level Documentation](https://revathyvenugopal162.github.io/euroscipy-presentation/industrial-level-documentation.html#)**
