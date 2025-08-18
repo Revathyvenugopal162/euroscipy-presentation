@@ -1,0 +1,45 @@
+name: CI/CD
+
+on:
+  pull_request:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build the slides with quarto
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
+
+      - name: render slides
+        run: quarto render industrial-level-documentation.qmd
+
+      - name: upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: slides
+          path: |
+            industrial-level-documentation.html
+            industrial-level-documentation_files
+
+      - name: Render and Publish
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+          path: industrial-level-documentation.qmd
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
