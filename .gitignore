@@ -1,2 +1,5 @@
-industrial-level-documentation.html
-industrial-level-documentation_files/
+# Quarto cache
+/.quarto/
+
+# Output slides
+html/
