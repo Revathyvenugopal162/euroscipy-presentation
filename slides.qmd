@@ -12,13 +12,16 @@ format:
     slide-number: true
 ---
 
-## What's PyAnsys?
+## What is PyAnsys?
 
-![](img/pyansys-logo.png)
+PyAnsys is an ecosystem of Python libraries that provide access to Ansys
+simulation capabilities.
 
--   **Python** libraries for **Ansys** simulation capabilities
--   Build powerful engineering applications
--   **50+** repositories
+![](img/pyansys-logo.jpeg)
+
+::: {style="text-align: center;"}
+<https://docs.pyansys.com>
+:::
 
 ------------------------------------------------------------------------
 
