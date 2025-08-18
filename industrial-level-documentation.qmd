@@ -30,21 +30,21 @@ format:
 ::: {.column width="60%"}
 **Problems We Face:**
 
--   **Fragmented docs** across 50+ repos
--   **Manual updates** lag behind code
--   **Poor search** experience
--   **Inconsistent UX**
--   **API changes and data drift**
--   **Multiple teams**, different timezones
+- **Fragmented docs** across 50+ repos
+- **Manual updates** lag behind code
+- **Poor search** experience
+- **Inconsistent UX**
+- **API changes and data drift**
+- **Multiple teams**, different timezones
 :::
 
 ::: {.column width="40%"}
 **The Reality:**
 
--   Users get lost
--   Developers spend hours on docs
--   APIs change faster than docs
--   No unified experience
+- Users get lost
+- Developers spend hours on docs
+- APIs change faster than docs
+- No unified experience
 :::
 :::::
 
@@ -80,8 +80,8 @@ The Problem: Manual API docs are always outdated and cluttered.
 
 ![AutoAPI in Action](images/autoapi-ast.gif)
 
--   [Configuring AutoAPI](https://sphinxdocs.ansys.com/version/stable/user-guide/autoapi.html)
--   [Example API documentation](https://geometry.docs.pyansys.com/)
+- [Configuring AutoAPI](https://sphinxdocs.ansys.com/version/stable/user-guide/autoapi.html)
+- [Example API documentation](https://geometry.docs.pyansys.com/)
 
 ::: notes
 -   **Zero manual maintenance** - **Always in sync** with code - **Clean templates** - **NumPy docstring support**
@@ -154,11 +154,11 @@ Result: Higher search rankings = more users find your docs
 ::: {.column width="30%"}
 **User Experience:**
 
--   Interactive snippets
--   Contextual icons
--   Tabbed organization
--   Clear navigation
--   Helpful messaging
+- Interactive snippets
+- Contextual icons
+- Tabbed organization
+- Clear navigation
+- Helpful messaging
 :::
 :::::
 
@@ -184,21 +184,21 @@ Result: Higher search rankings = more users find your docs
 ::: {.column width="50%"}
 **Quantitative Results:**
 
--   **75% reduction** in maintenance time
--   **Increased** organic search traffic
--   **Faster build** times
--   **50+ repositories** using the theme
--   **Positive user** feedback
+- **75% reduction** in maintenance time
+- **Increased** organic search traffic
+- **Faster build** times
+- **50+ repositories** using the theme
+- **Positive user** feedback
 :::
 
 ::: {.column width="50%"}
 **Qualitative Benefits:**
 
--   **Consistent brand** experience
--   **Reduced onboarding** time
--   **Improved discoverability**
--   **Better collaboration**
--   **Faster issue** resolution
+- **Consistent brand** experience
+- **Reduced onboarding** time
+- **Improved discoverability**
+- **Better collaboration**
+- **Faster issue** resolution
 :::
 :::::
 
@@ -210,23 +210,11 @@ Result: Higher search rankings = more users find your docs
 
 **Key Takeaways:**
 
-::::: columns
-::: {.column width="60%"}
-1.  **Automation is essential** at scale
-2.  **Centralized themes** reduce overhead
-3.  **User experience** drives adoption
-4.  **Accessibility** is not optional
-5.  **Measure impact** to justify investment
-:::
-
-::: {.column width="40%"}
-**Getting Started:**
-
--   [sphinxdocs.ansys.com](https://sphinxdocs.ansys.com)
--   [github.com/ansys/ansys-sphinx-theme](https://github.com/ansys/ansys-sphinx-theme)
--   pyansys.core\@ansys.com
-:::
-:::::
+1. **Automation is essential** at scale
+2. **Centralized themes** reduce overhead
+3. **User experience** drives adoption
+4. **Accessibility** is not optional
+5. **Measure impact** to justify investment
 
 ------------------------------------------------------------------------
 
@@ -238,18 +226,23 @@ Result: Higher search rankings = more users find your docs
 
 -   **Email:** pyansys.core\@ansys.com
 -   **LinkedIn:** Revathy Venugopal
--   **This presentation:** [github.com/ansys-internal/pyansys-core-presentations](https://github.com/ansys-internal/pyansys-core-presentations)
+-   [This presentation](https://revathyvenugopal162.github.io/euroscipy-presentation/)
+
 :::
 
 ::: {.column width="50%"}
+
 **Community:**
 
--   **License:** MIT License
--   **Discussions:** GitHub Discussions
--   **Issues:** GitHub Issues
--   **Contributing:** See CONTRIBUTING.md
+- **GitHub repo**: [https://github.com/ansys/ansys-sphinx-theme](https://github.com/ansys/ansys-sphinx-theme)
+- **Website:** [https://sphinxdocs.ansys.com](https://sphinxdocs.ansys.com)
+- **License:** [MIT License](https://opensource.org/licenses/MIT)
+- **Discussions:** [GitHub Discussions](https://github.com/ansys/ansys-sphinx-theme/discussions)
+- **Issues:** [GitHub Issues](https://github.com/ansys/ansys-sphinx-theme/issues)
+- **Contributing:** See [CONTRIBUTING.md](https://github.com/ansys/ansys-sphinx-theme/blob/main/CONTRIBUTING.md)
+
 :::
-:::::
+::::
 
 > **"From 50+ fragmented docs to one unified experience"**
 
