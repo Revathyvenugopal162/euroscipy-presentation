@@ -14,7 +14,7 @@ format:
 
 ## What's PyAnsys?
 
-![](../images/pyansys-logo.png)
+![](images/pyansys-logo.png)
 
 -   **Python** libraries for **Ansys** simulation capabilities
 -   Build powerful engineering applications
@@ -64,7 +64,7 @@ format:
 
 ## Consistent User Experience and Layout
 
-![Consistent Layout](../images/layout.png)
+![Consistent Layout](images/layout.png)
 
 [Basic configuration](https://sphinxdocs.ansys.com/version/stable/user-guide/configuration.html)
 
@@ -74,11 +74,11 @@ format:
 
 The Problem: Manual API docs are always outdated and cluttered.
 
-![AutoAPI without Ansys Theme](../images/autoapi-org.gif)
+![AutoAPI without Ansys Theme](images/autoapi-org.gif)
 
 ## API Documentation with Ansys Theme
 
-![AutoAPI in Action](../images/autoapi-ast.gif)
+![AutoAPI in Action](images/autoapi-ast.gif)
 
 -   [Configuring AutoAPI](https://sphinxdocs.ansys.com/version/stable/user-guide/autoapi.html)
 -   [Example API documentation](https://geometry.docs.pyansys.com/)
@@ -91,17 +91,17 @@ The Problem: Manual API docs are always outdated and cluttered.
 
 ## Poor Search Experience
 
-![Sphinx Search](../images/search-sphinx.gif)
+![Sphinx Search](images/search-sphinx.gif)
 
 ## Real-time Search with Ansys Theme
 
-![Real-time Search](../images/search_preview.gif)
+![Real-time Search](images/search_preview.gif)
 
 ------------------------------------------------------------------------
 
 ## Cluttered and Manual Changelogs
 
-![Sphinx Changelog](../images/sphinx-changelog.gif)
+![Sphinx Changelog](images/sphinx-changelog.gif)
 
 ## Automated Changelogs with Tabs
 
@@ -118,7 +118,7 @@ graph TD
 :::
 
 ::: {.column width="60%"}
-![Automated Changelog](../images/auto-changelog.gif)
+![Automated Changelog](images/auto-changelog.gif)
 :::
 :::::
 
@@ -128,11 +128,11 @@ graph TD
 
 **The Problem**: Great docs that nobody can find
 
-![SEO Issues](../images/seo-sphinx.png) ![SEO pydata](../images/seo-pydata.png)
+![SEO Issues](images/seo-sphinx.png) ![SEO pydata](images/seo-pydata.png)
 
 ## SEO Optimization with Ansys Theme
 
-![SEO Results](../images/seo.png) ![SEO Performance](../images/seo-results.png)
+![SEO Results](images/seo.png) ![SEO Performance](images/seo-results.png)
 
 :::{.notes}
 What We Fixed: - Proper meta tags - Structured data - Mobile optimization - Social sharing previews
@@ -147,8 +147,8 @@ Result: Higher search rankings = more users find your docs
 ::: {.column width="70%"}
 **Enhanced UI Elements:**
 
-![Code Blocks](../images/code-block.png) ![Badges & Icons](../images/badges.png)\
-![Organized Tabs](../images/tabs.png) ![Smart Breadcrumbs](../images/breadcrumbs.png) ![Helpful Hints](../images/hint.png) ![Clear Errors](../images/error.png)
+![Code Blocks](images/code-block.png) ![Badges & Icons](images/badges.png)\
+![Organized Tabs](images/tabs.png) ![Smart Breadcrumbs](images/breadcrumbs.png) ![Helpful Hints](images/hint.png) ![Clear Errors](images/error.png)
 :::
 
 ::: {.column width="30%"}
@@ -168,11 +168,11 @@ Result: Higher search rankings = more users find your docs
 
 ::::: columns
 ::: {.column width="50%"}
-![Light Mode](../images/light-mode.png)
+![Light Mode](images/light-mode.png)
 :::
 
 ::: {.column width="50%"}
-![Dark Mode](../images/dark-mode.png)
+![Dark Mode](images/dark-mode.png)
 :::
 :::::
 
@@ -253,9 +253,9 @@ Result: Higher search rankings = more users find your docs
 
 > **"From 50+ fragmented docs to one unified experience"**
 
-<!-- ![Code block](../images/code-block.png)
-![Badges](../images/badges.png)
-![Tabs](../images/tabs.png)
-![breadcrumbs](../images/breadcrumbs.png)
-![Admonition Boxes](../images/hint.png)
-![Admonition Boxes](../images/error.png) -->
+<!-- ![Code block](images/code-block.png)
+![Badges](images/badges.png)
+![Tabs](images/tabs.png)
+![breadcrumbs](images/breadcrumbs.png)
+![Admonition Boxes](images/hint.png)
+![Admonition Boxes](images/error.png) -->
