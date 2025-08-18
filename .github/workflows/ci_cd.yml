@@ -36,7 +36,7 @@ jobs:
             industrial-level-documentation_files
 
       - name: Render and Publish
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        # if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
