@@ -20,9 +20,9 @@ simulation capabilities.
 
 ![](img/pyansys-logo.jpeg)
 
-::: {style="text-align: center;"}
-<https://docs.pyansys.com>
-:::
+<div style="text-align: center;">
+  <a href="https://docs.pyansys.com"></a>
+</div>
 
 ## Documentation challenges
 
@@ -36,9 +36,9 @@ The main challenges we face in PyAnsys documentation are:
 
 . . .
 
-::: {style="text-align: center;"}
-![](img/solved.jpg){width="60%"}
-:::
+<div style="text-align: center;">
+  <img src="img/solved.jpg" style="width: 60%" />
+</div>
 
 ## Unifying the user experience
 
@@ -53,8 +53,6 @@ navigate, and visually appealing?
 
 . . .
 
-|
-|
 
 **The solution**
 
@@ -63,8 +61,6 @@ navigate, and visually appealing?
 - Jinja is used to create templates for API documentation
 - API documentation is presented in a user-friendly format
 
-|
-|
 
 . . .
 
@@ -82,166 +78,44 @@ flowchart LR
 ![](img/pyansys-geometry-api.gif)
 
 
-## Search Experience
+## Search experience: the problem
 
-![Sphinx Search](img/search-sphinx.gif)
+The default search in Sphinx is slow, not user-friendly, and lacks real-time
+preview.
 
-## Real-time Search with Ansys Theme
+![](img/search-sphinx.gif)
 
-![Real-time Search](img/search_preview.gif)
 
-------------------------------------------------------------------------
+## Search experience: the solution
 
-## Cluttered and Manual Changelogs
+Take advantage of the [PyData Sphinx Theme] architecture to override the search
+bar component.
 
-![Sphinx Changelog](img/sphinx-changelog.gif)
+. . .
 
-## Automated Changelogs with Tabs
+|
+|
 
-::::: columns
-::: {.column width="40%"}
-```{mermaid}
-graph TD
-    A[Add news fragment for each PR by CI] --> B[CI detects changes and releases]
-    B --> C[CI combines fragments in to single 
-    file and deletes fragments]
-    C --> D[Changelog is published 
-    with tabs and cards]
-```
-:::
+- Parse the documentation to extract chapters and sections
+- Generate a JSON index of all documentation content
+- Use [Fuse.js](https://www.fusejs.io/) for fast client-side search
+- Replace default Sphinx search with a custom search component
 
-::: {.column width="60%"}
-![Automated Changelog](img/auto-changelog.gif)
-:::
-:::::
+. . .
 
-------------------------------------------------------------------------
+<div style="text-align: center;">
+  <img src="img/fuse-search.jpg" style="width: 60%" />
+</div>
 
-## Discoverability
+[PyData Sphinx Theme]: https://pydata-sphinx-theme.readthedocs.io/en/stable/
 
-**The Problem**: Great docs that nobody can find
 
-![SEO Issues](img/seo-sphinx.png) ![SEO pydata](images/seo-pydata.png)
+## Search experience: the result
 
-## SEO Optimization with Ansys Theme
 
-![SEO Results](img/seo.png) ![SEO Performance](images/seo-results.png)
+![](img/search_preview.gif)
 
-:::{.notes}
-What We Fixed: - Proper meta tags - Structured data - Mobile optimization - Social sharing previews
-Result: Higher search rankings = more users find your docs
-:::
 
-------------------------------------------------------------------------
+## Other slide
 
-## The Visual Experience {visibility="hidden"}
-
-::::: columns
-::: {.column width="70%"}
-**Enhanced UI Elements:**
-
-![Code Blocks](img/code-block.png) ![Badges & Icons](images/badges.png)\
-![Organized Tabs](img/tabs.png) ![Smart Breadcrumbs](images/breadcrumbs.png) ![Helpful Hints](images/hint.png) ![Clear Errors](images/error.png)
-:::
-
-::: {.column width="30%"}
-**User Experience:**
-
-- Interactive snippets
-- Contextual icons
-- Tabbed organization
-- Clear navigation
-- Helpful messaging
-:::
-:::::
-
-------------------------------------------------------------------------
-
-## Light & Dark Mode Support {visibility="hidden"}
-
-::::: columns
-::: {.column width="50%"}
-![Light Mode](img/light-mode.png)
-:::
-
-::: {.column width="50%"}
-![Dark Mode](img/dark-mode.png)
-:::
-:::::
-
-------------------------------------------------------------------------
-
-## Measurable Impact {visibility="hidden"}
-
-::::: columns
-::: {.column width="50%"}
-**Quantitative Results:**
-
-- **75% reduction** in maintenance time
-- **Increased** organic search traffic
-- **Faster build** times
-- **50+ repositories** using the theme
-- **Positive user** feedback
-:::
-
-::: {.column width="50%"}
-**Qualitative Benefits:**
-
-- **Consistent brand** experience
-- **Reduced onboarding** time
-- **Improved discoverability**
-- **Better collaboration**
-- **Faster issue** resolution
-:::
-:::::
-
-> **"Documentation that developers love to maintain and users love to use"**
-
-------------------------------------------------------------------------
-
-## The Future of Scientific Docs
-
-**Key Takeaways:**
-
-1. **Automation is essential** at scale
-2. **Centralized themes** reduce overhead
-3. **User experience** drives adoption
-4. **Accessibility** is not optional
-5. **Measure impact** to justify investment
-
-------------------------------------------------------------------------
-
-## Thank You! Questions?
-
-::::: columns
-::: {.column width="50%"}
-**Contact & Resources:**
-
--   **Email:** pyansys.core\@ansys.com
--   **LinkedIn:** Revathy Venugopal
--   [This presentation](https://revathyvenugopal162.github.io/euroscipy-presentation/)
-
-:::
-
-::: {.column width="50%"}
-
-**Community:**
-
-- **GitHub repo**: [https://github.com/ansys/ansys-sphinx-theme](https://github.com/ansys/ansys-sphinx-theme)
-- **Website:** [https://sphinxdocs.ansys.com](https://sphinxdocs.ansys.com)
-- **License:** [MIT License](https://opensource.org/licenses/MIT)
-- **Discussions:** [GitHub Discussions](https://github.com/ansys/ansys-sphinx-theme/discussions)
-- **Issues:** [GitHub Issues](https://github.com/ansys/ansys-sphinx-theme/issues)
-- **Contributing:** See [CONTRIBUTING.md](https://github.com/ansys/ansys-sphinx-theme/blob/main/CONTRIBUTING.md)
-
-:::
-::::
-
-> **"From 50+ fragmented docs to one unified experience"**
-
-<!-- ![Code block](img/code-block.png)
-![Badges](img/badges.png)
-![Tabs](img/tabs.png)
-![breadcrumbs](img/breadcrumbs.png)
-![Admonition Boxes](img/hint.png)
-![Admonition Boxes](img/error.png) -->
+Here...
