@@ -1,7 +1,7 @@
 ---
 title: "Industrial-Level Documentation for Scientific Projects"
 subtitle: "Optimizing Documentation Workflows with Ansys Sphinx Theme"
-author: "Revathy Venugopal – Synopsys R&D | Open-Source Contributor"
+author: "Revathy Venugopal – Ansys R&D | Open-Source Contributor"
 date: "2025-08-04"
 transition: fade
 footer: "EuroSciPy 2025"
@@ -13,7 +13,7 @@ format:
 ---
 
 
-## Who am i
+## Who am I?
 
 :::: {.columns}
 
@@ -30,9 +30,11 @@ format:
 |
 
 - **Name:** Revathy Venugopal
-- **GitHub:** [@Revathyvenugopal162](https://github.com/Revathyvenugopal16)
+- **GitHub:** [@Revathyvenugopal162](https://github.com/Revathyvenugopal162)
 - **Position:** Research and Development Engineer II
 - **Company:** ANSYS, Inc.
+![This presentation](img/frame.png){.absolute bottom=50 left=500 width="250" height="250"}
+
 :::
 
 ::::
