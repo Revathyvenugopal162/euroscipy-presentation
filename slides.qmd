@@ -14,7 +14,7 @@ format:
 ---
 
 
-## Whoami
+## Who am i
 
 :::: {.columns}
 
