@@ -31,7 +31,7 @@ format:
 |
 
 - **Name:** Revathy Venugopal
-- **GitHub:** [@Revathyvenugopal16](https://github.com/Revathyvenugopal16)
+- **GitHub:** [@Revathyvenugopal162](https://github.com/Revathyvenugopal16)
 - **Position:** Research and Development Engineer II
 - **Company:** ANSYS, Inc.
 :::
