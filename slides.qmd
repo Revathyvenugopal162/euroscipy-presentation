@@ -10,7 +10,6 @@ format:
     smaller: true
     scrollable: true
     slide-number: true
-    incremental: true
 ---
 
 
