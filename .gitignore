@@ -1,0 +1,8 @@
+# Quarto cache
+/.quarto/
+
+# Output slides
+html/
+
+# Platform specific files
+.DS_Store
