@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="industrial-level-documentation_files/libs/clipboard/clipboard.min.js"></script>
-<script src="industrial-level-documentation_files/libs/quarto-html/tabby.min.js"></script>
-<script src="industrial-level-documentation_files/libs/quarto-html/popper.min.js"></script>
-<script src="industrial-level-documentation_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="industrial-level-documentation_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="industrial-level-documentation_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="industrial-level-documentation_files/libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="slides_files/libs/clipboard/clipboard.min.js"></script>
+<script src="slides_files/libs/quarto-html/tabby.min.js"></script>
+<script src="slides_files/libs/quarto-html/popper.min.js"></script>
+<script src="slides_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="slides_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="slides_files/libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.33">
 
   <meta name="author" content="Revathy Venugopal – Synopsys R&amp;D | Open-Source Contributor">
@@ -15,8 +15,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="industrial-level-documentation_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="industrial-level-documentation_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="slides_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="slides_files/libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -30,11 +30,11 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="industrial-level-documentation_files/libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
-  <link href="industrial-level-documentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="industrial-level-documentation_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="industrial-level-documentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="industrial-level-documentation_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="slides_files/libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link href="slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="slides_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="slides_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
       margin: 0;
@@ -123,9 +123,9 @@
       margin-right: 0; 
     }
   </style>
-  <script src="industrial-level-documentation_files/libs/quarto-diagram/mermaid.min.js"></script>
-  <script src="industrial-level-documentation_files/libs/quarto-diagram/mermaid-init.js"></script>
-  <link href="industrial-level-documentation_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
+  <script src="slides_files/libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="slides_files/libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="slides_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -133,7 +133,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Industrial-Level Documentation for Scientific Projects</h1>
-  <p class="subtitle">Optimizing Workflows with the Ansys Sphinx Theme</p>
+  <p class="subtitle">Optimizing Documentation Workflows with Ansys Sphinx Theme</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -145,192 +145,229 @@ Revathy Venugopal – Synopsys R&amp;D | Open-Source Contributor
 
   <p class="date">2025-08-04</p>
 </section>
-<section id="whats-pyansys" class="slide level2">
-<h2>What’s PyAnsys?</h2>
-
-<img data-src="images/pyansys-logo.png" class="r-stretch"><ul>
-<li><strong>Python</strong> libraries for <strong>Ansys</strong> simulation capabilities</li>
-<li>Build powerful engineering applications</li>
-<li><strong>50+</strong> repositories</li>
-</ul>
-</section>
-<section id="the-documentation-challenge" class="slide level2">
-<h2>The Documentation Challenge</h2>
-<p><strong>Challenge:</strong> How do you document 50+ complex scientific libraries consistently?</p>
+<section id="whoami" class="slide level2">
+<h2>Whoami</h2>
 <div class="columns">
-<div class="column" style="width:60%;">
-<p><strong>Problems We Face:</strong></p>
+<div class="column" style="width:40%;">
+<p><img data-src="img/avatar.jpeg"></p>
+</div><div class="column" style="width:60%;">
+<div class="line-block"><br>
+</div>
+<div class="line-block"><br>
+</div>
 <ul>
-<li><strong>Fragmented docs</strong> across 50+ repos</li>
-<li><strong>Manual updates</strong> lag behind code</li>
-<li><strong>Poor search</strong> experience</li>
-<li><strong>Inconsistent UX</strong></li>
-<li><strong>API changes and data drift</strong></li>
-<li><strong>Multiple teams</strong>, different timezones</li>
-</ul>
-</div><div class="column" style="width:40%;">
-<p><strong>The Reality:</strong></p>
-<ul>
-<li>Users get lost</li>
-<li>Developers spend hours on docs</li>
-<li>APIs change faster than docs</li>
-<li>No unified experience</li>
+<li class="fragment"><strong>Name:</strong> Revathy Venugopal</li>
+<li class="fragment"><strong>GitHub:</strong> <a href="https://github.com/Revathyvenugopal16"><span class="citation" data-cites="Revathyvenugopal16">@Revathyvenugopal16</span></a></li>
+<li class="fragment"><strong>Position:</strong> Research and Development Engineer II</li>
+<li class="fragment"><strong>Company:</strong> ANSYS, Inc.</li>
 </ul>
 </div></div>
 </section>
-<section id="our-solution-one-theme-many-libraries" class="slide level2">
-<h2>Our Solution: One Theme, Many Libraries</h2>
-<blockquote>
-<p><strong>“One theme. One pipeline. Many libraries.”</strong></p>
-</blockquote>
-<p><strong>Key Results:</strong></p>
+<section id="what-is-pyansys" class="slide level2">
+<h2>What is PyAnsys?</h2>
+<p>PyAnsys is an ecosystem of Python libraries that provide access to Ansys simulation capabilities.</p>
+
+<img data-src="img/pyansys-logo.jpeg" class="r-stretch"><div style="text-align: center;">
+<p><a href="https://docs.pyansys.com"></a></p>
+</div>
+</section>
+<section id="documentation-challenges" class="slide level2">
+<h2>Documentation challenges</h2>
+<p>The main challenges we face in PyAnsys documentation are:</p>
 <ul>
-<li><strong>Reduction</strong> in maintenance time</li>
-<li><strong>Consistent experience</strong> across all libraries</li>
-<li><strong>Better search rankings</strong> and user satisfaction</li>
+<li class="fragment"><strong>Ensure a unified user experience across multiple libraries</strong></li>
+<li class="fragment"><strong>Massive APIs that update faster than docs</strong></li>
+<li class="fragment"><strong>Users and developers lose hours digging through docs</strong></li>
+<li class="fragment"><strong>Manual maintenance of changelogs and API docs</strong></li>
+<li class="fragment"><strong>Poor discoverability and search experience</strong></li>
 </ul>
+<div class="fragment">
+<div style="text-align: center;">
+<p><img src="img/solved.jpg" style="width: 60%"></p>
+</div>
+</div>
 </section>
-<section id="consistent-user-experience-and-layout" class="slide level2">
-<h2>Consistent User Experience and Layout</h2>
+<section id="unifying-the-user-experience" class="slide level2">
+<h2>Unifying the user experience</h2>
 
-<img data-src="images/layout.png" class="r-stretch quarto-figure-center"><p class="caption">Consistent Layout</p><p><a href="https://sphinxdocs.ansys.com/version/stable/user-guide/configuration.html">Basic configuration</a></p>
-</section>
-<section id="cluttered-api-documentation" class="slide level2">
-<h2>Cluttered API Documentation</h2>
-<p>The Problem: Manual API docs are always outdated and cluttered.</p>
-
-<img data-src="images/autoapi-org.gif" class="r-stretch quarto-figure-center"><p class="caption">AutoAPI without Ansys Theme</p></section>
-<section id="api-documentation-with-ansys-theme" class="slide level2">
-<h2>API Documentation with Ansys Theme</h2>
-
-<img data-src="images/autoapi-ast.gif" class="r-stretch quarto-figure-center"><p class="caption">AutoAPI in Action</p><ul>
-<li><a href="https://sphinxdocs.ansys.com/version/stable/user-guide/autoapi.html">Configuring AutoAPI</a></li>
-<li><a href="https://geometry.docs.pyansys.com/">Example API documentation</a></li>
-</ul>
-<aside class="notes">
+<img data-src="img/ansys-sphinx-theme.jpeg" class="r-stretch"></section>
+<section id="api-documentation-the-problem" class="slide level2">
+<h2>API documentation: the problem</h2>
+<p>How can we ensure that our API documentation is always up-to-date, easy to navigate, and visually appealing?</p>
+<div class="line-block"><br>
+</div>
 <ul>
-<li><strong>Zero manual maintenance</strong> - <strong>Always in sync</strong> with code - <strong>Clean templates</strong> - <strong>NumPy docstring support</strong></li>
+<li class="fragment">Manually syncing with source code is error-prone</li>
+<li class="fragment">Large APIs can lead to overwhelming documentation</li>
+<li class="fragment">Users struggle to find relevant information quickly</li>
+<li class="fragment">Diffs can be difficult to track</li>
+<li class="fragment">Link documentation to source code for quick-reference</li>
 </ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
-<section id="poor-search-experience" class="slide level2">
-<h2>Poor Search Experience</h2>
-
-<img data-src="images/search-sphinx.gif" class="r-stretch quarto-figure-center"><p class="caption">Sphinx Search</p></section>
-<section id="real-time-search-with-ansys-theme" class="slide level2">
-<h2>Real-time Search with Ansys Theme</h2>
-
-<img data-src="images/search_preview.gif" class="r-stretch quarto-figure-center"><p class="caption">Real-time Search</p></section>
-<section id="cluttered-and-manual-changelogs" class="slide level2">
-<h2>Cluttered and Manual Changelogs</h2>
-
-<img data-src="images/sphinx-changelog.gif" class="r-stretch quarto-figure-center"><p class="caption">Sphinx Changelog</p></section>
-<section id="automated-changelogs-with-tabs" class="slide level2">
-<h2>Automated Changelogs with Tabs</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
+<section id="api-documentation-the-solution" class="slide level2">
+<h2>API documentation: the solution</h2>
+<p>Automate the process of generating API documentation and present it in a single-page per object format:</p>
+<ul>
+<li class="fragment">Docstrings are the source of truth</li>
+<li class="fragment">Documentation pages are auto-generated by parsing source code</li>
+<li class="fragment">Jinja is used to create templates for API documentation</li>
+<li class="fragment">API documentation is presented in a user-friendly format</li>
+</ul>
+<div class="fragment">
 <div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<pre class="mermaid mermaid-js">graph TD
-    A[Add news fragment for each PR by CI] --&gt; B[CI detects changes and releases]
-    B --&gt; C[CI combines fragments in to single 
-    file and deletes fragments]
-    C --&gt; D[Changelog is published 
-    with tabs and cards]
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Write docstrings] --&gt; B[Parse documentation] --&gt; C[Hydrate templates] --&gt; D[Render docs]
+
+  %% Styling: white nodes, black border &amp; text
+  classDef white fill:#ffffff,stroke:#000000,color:#000000;
+  class A,B,C,D white;
 </pre>
 </div>
 <p></p></figure><p></p>
 </div>
 </div>
 </div>
-</div><div class="column" style="width:60%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/auto-changelog.gif"></p>
-<figcaption>Automated Changelog</figcaption>
-</figure>
 </div>
-</div></div>
 </section>
-<section id="discoverability" class="slide level2">
-<h2>Discoverability</h2>
-<p><strong>The Problem</strong>: Great docs that nobody can find</p>
-<p><img data-src="images/seo-sphinx.png" alt="SEO Issues"> <img data-src="images/seo-pydata.png" alt="SEO pydata"></p>
-</section>
-<section id="seo-optimization-with-ansys-theme" class="slide level2">
-<h2>SEO Optimization with Ansys Theme</h2>
-<p><img data-src="images/seo.png" alt="SEO Results"> <img data-src="images/seo-results.png" alt="SEO Performance"></p>
-<aside class="notes">
-<p>What We Fixed: - Proper meta tags - Structured data - Mobile optimization - Social sharing previews Result: Higher search rankings = more users find your docs</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+<section id="api-documentation-the-result" class="slide level2">
+<h2>API documentation: the result</h2>
 
+<img data-src="img/pyansys-geometry-api.gif" class="r-stretch"></section>
+<section id="search-experience-the-problem" class="slide level2">
+<h2>Search experience: the problem</h2>
+<p>The default search in Sphinx is slow, not user-friendly, and lacks real-time preview.</p>
 
-
-<section id="the-future-of-scientific-docs" class="slide level2 scrollable">
-<h2>The Future of Scientific Docs</h2>
-<p><strong>Key Takeaways:</strong></p>
-<ol type="1">
-<li><strong>Automation is essential</strong> at scale</li>
-<li><strong>Centralized themes</strong> reduce overhead</li>
-<li><strong>User experience</strong> drives adoption</li>
-<li><strong>Accessibility</strong> is not optional</li>
-<li><strong>Measure impact</strong> to justify investment</li>
-</ol>
-</section>
-<section id="thank-you-questions" class="slide level2">
-<h2>Thank You! Questions?</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Contact &amp; Resources:</strong></p>
+<img data-src="img/search-sphinx.gif" class="r-stretch"></section>
+<section id="search-experience-the-solution" class="slide level2">
+<h2>Search experience: the solution</h2>
+<p>Take advantage of the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/">PyData Sphinx Theme</a> architecture to override the search bar component.</p>
+<div class="fragment">
+<div class="line-block"><br>
+</div>
 <ul>
-<li><strong>Email:</strong> pyansys.core@ansys.com</li>
-<li><strong>LinkedIn:</strong> Revathy Venugopal</li>
-<li><a href="https://revathyvenugopal162.github.io/euroscipy-presentation/">This presentation</a></li>
+<li class="fragment">Parse the documentation to extract chapters and sections</li>
+<li class="fragment">Generate a JSON index of all documentation content</li>
+<li class="fragment">Use <a href="https://www.fusejs.io/">Fuse.js</a> for fast client-side search</li>
+<li class="fragment">Replace default Sphinx search with a custom search component</li>
 </ul>
-</div><div class="column" style="width:50%;">
-<p><strong>Community:</strong></p>
+</div>
+<div class="fragment">
+<div style="text-align: center;">
+<p><img src="img/fuse-search.jpg" style="width: 60%"></p>
+</div>
+</div>
+</section>
+<section id="search-experience-the-result" class="slide level2">
+<h2>Search experience: the result</h2>
+
+<img data-src="img/search_preview.gif" class="r-stretch"></section>
+<section id="changelog-the-problem" class="slide level2">
+<h2>Changelog: the problem</h2>
+<p>Generating changelog and release notes has the following challenges:</p>
 <ul>
-<li><strong>GitHub repo</strong>: <a href="https://github.com/ansys/ansys-sphinx-theme">https://github.com/ansys/ansys-sphinx-theme</a></li>
-<li><strong>Website:</strong> <a href="https://sphinxdocs.ansys.com">https://sphinxdocs.ansys.com</a></li>
-<li><strong>License:</strong> <a href="https://opensource.org/licenses/MIT">MIT License</a></li>
-<li><strong>Discussions:</strong> <a href="https://github.com/ansys/ansys-sphinx-theme/discussions">GitHub Discussions</a></li>
-<li><strong>Issues:</strong> <a href="https://github.com/ansys/ansys-sphinx-theme/issues">GitHub Issues</a></li>
-<li><strong>Contributing:</strong> See <a href="https://github.com/ansys/ansys-sphinx-theme/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a></li>
+<li class="fragment">Manually maintaining changelogs is error-prone</li>
+<li class="fragment">Difficult to keep track of changes across multiple libraries</li>
+<li class="fragment">Presenting changelogs in a user-friendly format is challenging</li>
 </ul>
-</div></div>
-<blockquote>
-<p><strong>“From 50+ fragmented docs to one unified experience”</strong></p>
-</blockquote>
-<!-- ![Code block](images/code-block.png)
-![Badges](images/badges.png)
-![Tabs](images/tabs.png)
-![breadcrumbs](images/breadcrumbs.png)
-![Admonition Boxes](images/hint.png)
-![Admonition Boxes](images/error.png) -->
+<div class="fragment">
+<div style="text-align: center;">
+<p><img src="img/changelog-meme.jpeg" style="width: 60%"></p>
+</div>
+</div>
+</section>
+<section id="changelog-the-solution" class="slide level2">
+<h2>Changelog: the solution</h2>
+<p>Automate the whole process by using <a href="https://towncrier.readthedocs.io/en/stable/">Towncrier</a> and linking it with CI/CD pipelines:</p>
+<div class="line-block"><br>
+</div>
+<ul>
+<li class="fragment">Conventional commits are enforced</li>
+<li class="fragment">Changelog fragments are generated from pull-request titles</li>
+<li class="fragment">Fragments retain the pull-request type and number</li>
+<li class="fragment">Changelog is rendered during a release at CI/CD time</li>
+<li class="fragment">Fragments get removed in main branch after a release</li>
+</ul>
+<div class="line-block"><br>
+</div>
+<div class="fragment">
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Convential commits] --&gt; B[Fragment generation] --&gt; C[Changelog rendering] --&gt; D[Fragments cleanup]
+
+  %% Styling: white nodes, black border &amp; text
+  classDef white fill:#ffffff,stroke:#000000,color:#000000;
+  class A,B,C,D white;
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="changelog-the-result" class="slide level2">
+<h2>Changelog: the result</h2>
+
+<img data-src="img/auto-changelog.gif" class="r-stretch"></section>
+<section id="seo-optimization-the-problem" class="slide level2">
+<h2>SEO optimization: the problem</h2>
+<p>After LLM became popular, main search engines stopped indexing content that looked auto-generated.</p>
+<div class="line-block"><br>
+</div>
+<ul>
+<li class="fragment">Google stopped indexing our pages</li>
+<li class="fragment">Multi-version documentation can be challenging to index</li>
+<li class="fragment">Only the stable documentation should be indexed</li>
+</ul>
+</section>
+<section id="seo-optimization-the-solution" class="slide level2">
+<h2>SEO optimization: the solution</h2>
+<p>Take advantage of search engine tools and other tips:</p>
+<div class="line-block"><br>
+</div>
+<ul>
+<li class="fragment">Use hyphens rather than underscores when naming files</li>
+<li class="fragment">Ensure short and descriptive URLs</li>
+<li class="fragment">Automatically generate a <code>sitemap.xml</code> file</li>
+<li class="fragment">Automatically generate a <code>robots.txt</code> file</li>
+<li class="fragment">Use tenant accounts to automated indexing of search console panels</li>
+</ul>
+</section>
+<section id="seo-optimization-the-result" class="slide level2">
+<h2>SEO optimization: the result</h2>
+<p><img data-src="./img/seo.png"> <img data-src="img/seo-results.png"></p>
+</section>
+<section id="conclusion" class="slide level2">
+<h2>Conclusion</h2>
+<p>Despite facing various challenges, the effort of documenting a big project can be eased by:</p>
+<div class="line-block"><br>
+</div>
+<ul>
+<li class="fragment">Using centralized themes from which common settings are applied</li>
+<li class="fragment">Ensuring a single source of truth for content generation</li>
+<li class="fragment">Automating rendering processes as much as possible</li>
+</ul>
+<div class="fragment">
+<p>And don´t forget about:</p>
+<div class="line-block"><br>
+</div>
+<ul>
+<li class="fragment">Evaluate your users experience</li>
+<li class="fragment">Making your website accessible</li>
+<li class="fragment">Collect metrics to evaluate performance</li>
+</ul>
+</div>
+</section>
+<section id="thanks-for-your-time-questions" class="slide level2">
+<h2>Thanks for your time! Questions?</h2>
 
 </section>
     </div>
@@ -341,19 +378,19 @@ Revathy Venugopal – Synopsys R&amp;D | Open-Source Contributor
 </div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="industrial-level-documentation_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="slides_files/libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="industrial-level-documentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="industrial-level-documentation_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="industrial-level-documentation_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="industrial-level-documentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="industrial-level-documentation_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="industrial-level-documentation_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="industrial-level-documentation_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="industrial-level-documentation_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="industrial-level-documentation_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
