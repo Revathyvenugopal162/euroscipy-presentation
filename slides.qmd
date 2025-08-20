@@ -13,6 +13,32 @@ format:
     incremental: true
 ---
 
+
+## Whoami
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](img/avatar.jpeg)
+:::
+
+::: {.column width="60%"}
+
+|
+|
+
+|
+|
+
+- **Name:** Revathy Venugopal
+- **GitHub:** [@Revathyvenugopal16](https://github.com/Revathyvenugopal16)
+- **Position:** Research and Development Engineer II
+- **Company:** ANSYS, Inc.
+:::
+
+::::
+
+
 ## What is PyAnsys?
 
 PyAnsys is an ecosystem of Python libraries that provide access to Ansys
@@ -230,7 +256,6 @@ And don´t forget about:
 - Making your website accessible
 - Collect metrics to evaluate performance
 
-## Thanks for your time!
+## Thanks for your time! Questions?
 
-**Questions**
 
